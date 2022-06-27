@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/mainpage_btn_tool_counter_bg.svg</file>
+        <file>images/mainpage_btn_tool_random_number_bg.svg</file>
+    </qresource>
+</RCC>

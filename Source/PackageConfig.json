@@ -1,0 +1,53 @@
+{
+    "Author": "Mike",
+    "Description": "這個套件包含了計數器和亂數產生器小工具",
+    "Name": "AVerMedia Number Toolbox",
+    "UUID": "com.avermedia.package.number.toolbox",
+    "Icon": "images/packageAxLightingIcon",
+    "URL": "https://www.avermedia.com/gaming/creatorcentral",
+    "Version": "1.0.0",
+    "Runtime": {
+        "mac": {
+            "type": "bin",
+            "target": "Template.app",
+            "MinimumVersion": "11.0"
+        },
+        "win": {
+            "type": "bin",
+            "target": "Template.exe",
+            "MinimumVersion": "11.0"
+        }
+    },
+    "CreatorCentral": {
+        "MinimumVersion": "1.1",
+        "SDKVersion": 2
+    },
+    "Widgets": [
+        {
+            "Name": "計數器",
+            "Icon": "/images/mainpage_btn_tool_counter.svg",
+            "Tooltip": "Counter",
+            "UUID": "com.avermedia.widget.counter",
+            "PropertyViewPath": "property/counter/index.html",
+            "States": [
+                {
+                    "Image": "/images/mainpage_btn_tool_counter.svg",
+                    "Title": "Counter"
+                }
+            ]
+        },
+        {
+            "Name": "亂數產生器",
+            "Icon": "/images/mainpage_btn_tool_random_number.svg",
+            "Tooltip": "Random",
+            "UUID": "com.avermedia.widget.random.generator",
+            "PropertyViewPath": "property/index2.html",
+            "States": [
+                {
+                    "Image": "/images/mainpage_btn_tool_random_number_bg.svg",
+                    "Title": "Random Generator"
+                }             
+            ]
+        }
+    ]
+}
