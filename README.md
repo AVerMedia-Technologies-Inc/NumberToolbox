@@ -31,3 +31,17 @@
 而本範例程式展示的是使用 Qt 如何實作計數和亂數產生器
 
 當 Creator Central 啟動 Widget（Controller） 時， Creator Central 會派發兩個參數給 Widget（Controller） ，分別是 Widget UUID 以及 port。兩者間透過 WebSocket 進行溝通。後續的指令溝通都需要包含 Widget UUID 這資訊用以識別，封包格式等相關定義在 [The Overview of Creator Central SDK](https://github.com/AVerMedia-Technologies-Inc/CreatorCentralSDK) 有更進一步的說明。
+
+# **安裝**
+將編譯後執行檔整合進 Widget 目錄 （Clock_CPlusPlus.widget/)
+* [WinOS]
+將 Widget 目錄放置到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/package/＜PackageName＞/" ，接著打開 Creator Central 機器即可看到。
+* [MacOS]
+將 Widget 目錄放置到 "~/Applications Support/AVerMedia Creator Central/package/＜PackageName＞/" ，接著打開 Creator Central 機器即可看到。
+
+# **反安裝**
+* [WinOS]
+關掉 Creator Central ，到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/package/＜PackageName＞/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
+* [MacOS]
+關掉 Creator Central ，到 "~/Applications Support/AVerMedia Creator Central/package/＜PackageName＞/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
+
