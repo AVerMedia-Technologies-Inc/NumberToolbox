@@ -35,13 +35,13 @@
 # **安裝**
 將編譯後執行檔整合進 Widget 目錄 （Clock_CPlusPlus.widget/)
 * [WinOS]
-將 Widget 目錄放置到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/package/＜PackageName＞/" ，接著打開 Creator Central 機器即可看到。
+將 Widget 目錄放置到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/" ，接著打開 Creator Central 機器即可看到。
 * [MacOS]
-將 Widget 目錄放置到 "~/Applications Support/AVerMedia Creator Central/package/＜PackageName＞/" ，接著打開 Creator Central 機器即可看到。
+將 Widget 目錄放置到 "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" ，接著打開 Creator Central 機器即可看到。
 
 # **反安裝**
 * [WinOS]
-關掉 Creator Central ，到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/package/＜PackageName＞/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
+關掉 Creator Central ，到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
 * [MacOS]
-關掉 Creator Central ，到 "~/Applications Support/AVerMedia Creator Central/package/＜PackageName＞/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
+關掉 Creator Central ，到 "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
 
