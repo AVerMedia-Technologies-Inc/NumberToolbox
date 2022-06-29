@@ -11,7 +11,54 @@
 - [English](#Description)
 - [繁體中文](#描述)
 
-# NumberToolbox
+# **Description**
+This is a plugin with counting and random numbers. You can develop exclusive plugins through these two simple plugin examples.
+
+# **Features**
+* Code in Qt Creator
+* Counter and random number generator
+* Touch the panel to count and generate random numbers
+
+# **Development Environment**
+Comptabile to Win OS 10 / Mac OS 11.4  and above
+Developed with Qt 6.2.4
+
+# **Overview**
+There are three main roles in this application.
+1. Creator Central
+2. Widget(Controller)
+3. Property
+This application demo shows how to implement counter and random widget using Qt.
+
+When Creator Central starts Widget (Controller), Creator Central will send two parameters to Widget (Controller), namely Widget UUID and port. The two communicate through WebSocket. The follow-up commands need to include the Widget UUID information for identification, and the relevant definitions such as the packet format are explained in [The Overview of Creator Central SDK](https://github.com/AVerMedia-Technologies-Inc/CreatorCentralSDK).
+The clock is created using Qt, and the content drawn on View is converted into a picture, and then converted into a Base64 String and sent to Creator Central.
+
+# **Installation**
+Install the compiled executable file into the Packages directory, as shown below
+
+<div align="center">
+    <img src="Source/images/install_1.png" style="zoom:80%"/>
+    <img src="Source/images/install_2.png" style="zoom:80%"/>
+</div>
+
+* [WinOS]
+Packages installation path "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/"。
+* [MacOS]
+Packages installation path "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/"。
+
+# **Uninstallation**
+Method 1. Using the Creator Central app
+<div align="center">
+    <img src="Source/images/uninstall.png" style="zoom:80%"/>
+</div>
+
+Method 2. Delete manually
+* [WinOS]
+Close the Creator Central app，go to "C:/Users/<YourName>/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/" and delete the folder, and then open Creator Central again.
+* [MacOS]
+Close the Creator Central app，go to the "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" directory and delete the folder, then open Creator Central again.
+
+# **描述**
 這是一個有計數和亂數的插件，你可以透過這兩個簡單的插件範例，來開發專屬插件
 
 # **特徵**
@@ -37,7 +84,7 @@
 
 <div align="center">
     <img src="Source/images/install_1.png" style="zoom:80%"/>
-    <img src="Source/images/install_.png" style="zoom:80%"/>
+    <img src="Source/images/install_2.png" style="zoom:80%"/>
 </div>
 
 * [WinOS]
@@ -46,14 +93,14 @@ Package 安裝路徑 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator 
 Package 安裝路徑 "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/"。
 
 # **反安裝**
-方法 1.
+方法 1. 使用 Creator Central app
 <div align="center">
     <img src="Source/images/uninstall.png" style="zoom:80%"/>
 </div>
 
-方法 2.
+方法 2. 手動刪除
 * [WinOS]
-關掉 Creator Central ，到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
+關閉 Creator Central ，到 "C:/Users/＜YourName＞/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
 * [MacOS]
-關掉 Creator Central ，到 "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
+關閉 Creator Central ，到 "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" 目錄下把資料夾刪掉，再次打開 Creator Central 即可。
 
