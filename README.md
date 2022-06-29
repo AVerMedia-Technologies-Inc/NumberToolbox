@@ -56,7 +56,11 @@ Method 2. Delete manually
 * [WinOS]
 Close the Creator Central app，go to "C:/Users/<YourName>/AppData/Roaming/AVerMedia Creator Central/packages/xxxxxx/" and delete the folder, and then open Creator Central again.
 * [MacOS]
-Close the Creator Central app，go to the "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" directory and delete the folder, then open Creator Central again.
+Close the Creator Central app，go to "~/Applications Support/AVerMedia Creator Central/packages/xxxxxx/" and delete the folder, and then open Creator Central again.
+
+
+
+
 
 # **描述**
 這是一個有計數和亂數的插件，你可以透過這兩個簡單的插件範例，來開發專屬插件
