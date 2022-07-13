@@ -41,7 +41,7 @@
             "Icon": "/images/mainpage_btn_tool_random_number.svg",
             "Tooltip": "Random",
             "UUID": "com.avermedia.widget.random.generator",
-            "PropertyViewPath": "property/index2.html",
+            "PropertyViewPath": "property/index.html",
             "States": [
                 {
                     "Image": "/images/mainpage_btn_tool_random_number_bg.svg",
