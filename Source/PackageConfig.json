@@ -1,9 +1,9 @@
 {
-    "Author": "Mike",
-    "Description": "這個套件包含了計數器和亂數產生器小工具",
-    "Name": "AVerMedia Number Toolbox",
+    "Author": "Mike Yeh",
+    "Description": "This kit contains counter and random number generator toolbox",
+    "Name": "Number Toolbox",
     "UUID": "com.avermedia.package.number.toolbox",
-    "Icon": "images/packageAxLightingIcon",
+    "Icon": "images/xxx",
     "URL": "https://www.avermedia.com/gaming/creatorcentral",
     "Version": "1.0.0",
     "Runtime": {
@@ -15,7 +15,7 @@
         "win": {
             "type": "bin",
             "target": "Template.exe",
-            "MinimumVersion": "11.0"
+            "MinimumVersion": "10.0"
         }
     },
     "CreatorCentral": {
@@ -24,7 +24,7 @@
     },
     "Widgets": [
         {
-            "Name": "計數器",
+            "Name": "Counter",
             "Icon": "/images/mainpage_btn_tool_counter.svg",
             "Tooltip": "Counter",
             "UUID": "com.avermedia.widget.counter",
@@ -37,15 +37,15 @@
             ]
         },
         {
-            "Name": "亂數產生器",
+            "Name": "Random",
             "Icon": "/images/mainpage_btn_tool_random_number.svg",
             "Tooltip": "Random",
             "UUID": "com.avermedia.widget.random.generator",
-            "PropertyViewPath": "property/index.html",
+            "PropertyViewPath": "property/random/index.html",
             "States": [
                 {
                     "Image": "/images/mainpage_btn_tool_random_number_bg.svg",
-                    "Title": "Random Generator"
+                    "Title": "Random"
                 }             
             ]
         }
