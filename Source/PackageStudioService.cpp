@@ -46,15 +46,15 @@ void PackageStudioService::onServerIconResponseReceived(const QJsonObject &obj)
     {
 
     }
-    else if (eventType == PluginEventReceived::kKeyDown)
+    else if (eventType == PluginEventReceived::kActionDown)
     {
         keyDownWidget(widget, context);
     }
-    else if (eventType == PluginEventReceived::kKeyUp)
+    else if (eventType == PluginEventReceived::kActionUp)
     {
         keyUpWidget(widget, context);
     }
-    else if (eventType == PluginEventReceived::kWidgetTriggered)
+    else if (eventType == PluginEventReceived::kActionTriggered)
     {
         triggerWidget(widget, context);
     }

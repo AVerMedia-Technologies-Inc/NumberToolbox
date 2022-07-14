@@ -4,9 +4,9 @@
 namespace PluginEventReceived {
 const static QString kDidReceiveWidgetSettings = "didReceiveWidgetSettings";
 const static QString kDidReceivePackageSettings = "didReceivePackageSettings";
-const static QString kKeyDown = "keyDown";
-const static QString kKeyUp = "keyUp";
-const static QString kWidgetTriggered = "widgetTriggered";
+const static QString kActionDown = "actionDown";
+const static QString kActionUp = "actionUp";
+const static QString kActionTriggered = "actionTriggered";
 const static QString kWidgetWillAppear = "widgetWillAppear";
 const static QString kWidgetWillDisappear = "widgetWillDisappear";
 const static QString kPropertyViewDidAppear = "propertyViewDidAppear";

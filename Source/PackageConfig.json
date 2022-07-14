@@ -3,7 +3,7 @@
     "Description": "This kit contains counter and random number generator toolbox",
     "Name": "Number Toolbox",
     "UUID": "com.avermedia.package.number.toolbox",
-    "Icon": "images/xxx",
+    "Icon": "images/mainpage_btn_tool_counter.svg",
     "URL": "https://www.avermedia.com/gaming/creatorcentral",
     "Version": "1.0.0",
     "Runtime": {
@@ -25,26 +25,26 @@
     "Widgets": [
         {
             "Name": "Counter",
-            "Icon": "/images/mainpage_btn_tool_counter.svg",
+            "Icon": "images/mainpage_btn_tool_counter.svg",
             "Tooltip": "Counter",
             "UUID": "com.avermedia.widget.counter",
             "PropertyViewPath": "property/counter/index.html",
             "States": [
                 {
-                    "Image": "/images/mainpage_btn_tool_counter.svg",
+                    "Image": "images/mainpage_btn_tool_counter.svg",
                     "Title": "Counter"
                 }
             ]
         },
         {
             "Name": "Random",
-            "Icon": "/images/mainpage_btn_tool_random_number.svg",
+            "Icon": "images/mainpage_btn_tool_random_number.svg",
             "Tooltip": "Random",
             "UUID": "com.avermedia.widget.random.generator",
             "PropertyViewPath": "property/random/index.html",
             "States": [
                 {
-                    "Image": "/images/mainpage_btn_tool_random_number_bg.svg",
+                    "Image": "images/mainpage_btn_tool_random_number_bg.svg",
                     "Title": "Random"
                 }             
             ]
