@@ -1,17 +1,12 @@
 {
     "Author": "Mike Yeh",
     "Description": "This kit contains counter and random number generator toolbox",
-    "Name": "Number Toolbox",
+    "Name": "Tool box",
     "UUID": "com.avermedia.package.number.toolbox",
     "Icon": "images/mainpage_btn_tool_counter.svg",
     "URL": "https://www.avermedia.com/gaming/creatorcentral",
-    "Version": "1.0.0",
+    "Version": "1.0.0.7",
     "Runtime": {
-        "mac": {
-            "type": "bin",
-            "target": "Template.app",
-            "MinimumVersion": "11.0"
-        },
         "win": {
             "type": "bin",
             "target": "Template.exe",
@@ -29,6 +24,9 @@
             "Tooltip": "Counter",
             "UUID": "com.avermedia.widget.counter",
             "PropertyViewPath": "property/counter/index.html",
+			"TitleViewEditable": false,
+			"IconEditable": false,
+			"TitleEditable": true,
             "States": [
                 {
                     "Image": "images/mainpage_btn_tool_counter.svg",
@@ -37,14 +35,17 @@
             ]
         },
         {
-            "Name": "Random",
+            "Name": "Random Number",
             "Icon": "images/mainpage_btn_tool_random_number.svg",
-            "Tooltip": "Random",
+            "Tooltip": "Random Number",
             "UUID": "com.avermedia.widget.random.generator",
             "PropertyViewPath": "property/random/index.html",
+			"TitleViewEditable": false,
+			"IconEditable": false,
+			"TitleEditable": true,
             "States": [
                 {
-                    "Image": "images/mainpage_btn_tool_random_number_bg.svg",
+                    "Image": "images/mainpage_btn_tool_random_number.svg",
                     "Title": "Random"
                 }             
             ]

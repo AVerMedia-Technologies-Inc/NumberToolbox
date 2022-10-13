@@ -22,6 +22,7 @@ public:
     void sentChangeState(QString context, QJsonObject payload);
     void sentSendToPropertyView(QString widget, QString context, QJsonObject payload);
     void sentSendToPackage(QString widget, QString context, QJsonObject payload);
+    void setActionEffect(QString context, QJsonObject payload);
 
 signals:
     void serverResponse(const QJsonObject &result);

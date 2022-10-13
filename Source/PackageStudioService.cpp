@@ -97,7 +97,7 @@ void PackageStudioService::receiveWidgetSettings(QString widgetCategory, QString
             else if (widgetCategory == WidgetCategory::kWidgetRandomGenerator)
             {
                 QJsonArray saveDatas = payload.value("saveData").toArray();
-                int min = 0;
+                int min = 1;
                 int max = 100;
                 for (auto saveDate : saveDatas)
                 {

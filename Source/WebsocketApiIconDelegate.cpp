@@ -197,3 +197,15 @@ void WebsocketApiIconDelegate::sentSendToPackage(QString widget, QString context
     QString sendToPackage(doc.toJson(QJsonDocument::Compact));
     m_clientSocket->sendTextMessage(sendToPackage);
 }
+
+void WebsocketApiIconDelegate::setActionEffect(QString context, QJsonObject payload)
+{
+    QJsonObject param;
+    param.insert("event", PluginEventSent::kSetActionEffect);
+    param.insert("context", context);
+    param.insert("payload", payload);
+
+    QJsonDocument doc(param);
+    QString sendToPackage(doc.toJson(QJsonDocument::Compact));
+    m_clientSocket->sendTextMessage(sendToPackage);
+}
